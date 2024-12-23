@@ -56,6 +56,6 @@ public class IngredientInstance {
 
     @Override
     public String toString() {
-        return quantity + " " + measurement + " " + ingredient + " " + prepMethod;
+        return quantity + " " + measurement + " " + ingredient.getName() + " " + prepMethod;
     }
 }

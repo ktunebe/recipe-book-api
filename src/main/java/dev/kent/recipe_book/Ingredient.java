@@ -14,8 +14,8 @@ public class Ingredient {
             throw new IllegalArgumentException("Name cannot be null or blank");
         }
         this.name = name;
-        this.tags = tags != null ? tags : Optional.empty();
-        this.description = description != null ? description : Optional.empty();
+        this.tags = tags;
+        this.description = description;
     }
 
     // Overloaded constructor for name only
@@ -48,6 +48,6 @@ public class Ingredient {
     }
 
     public void setDescription(Optional<String> description) {
-        this.description = description != null ? description : Optional.empty();
+        this.description = description;
     }
 }
