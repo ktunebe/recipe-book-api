@@ -1,29 +1,33 @@
 package dev.kent.recipe_book;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import org.bson.types.ObjectId;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import java.util.List;
 import java.util.Optional;
 
+@NoArgsConstructor
+@AllArgsConstructor
+@Document(collection = "ingredients")
 public class Ingredient {
-    private String name; // Required field
-    private Optional<List<String>> tags; // Optional tags
-    private Optional<String> description; // Optional description
-
-    // Constructor with all fields
-    public Ingredient(String name, Optional<List<String>> tags, Optional<String> description) {
-        if (name == null || name.isBlank()) {
-            throw new IllegalArgumentException("Name cannot be null or blank");
-        }
-        this.name = name;
-        this.tags = tags;
-        this.description = description;
-    }
-
-    // Overloaded constructor for name only
-    public Ingredient(String name) {
-        this(name, Optional.empty(), Optional.empty());
-    }
+    @Id
+    private ObjectId id; // Use ObjectId for the ID field
+    private String name;
+    private List<String> tags;
+    private Optional<String> description;
 
     // Getters and setters
+    public ObjectId getId() {
+        return id;
+    }
+
+    public void setId(ObjectId id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }
@@ -35,12 +39,12 @@ public class Ingredient {
         this.name = name;
     }
 
-    public Optional<List<String>> getTags() {
+    public List<String> getTags() {
         return tags;
     }
 
-    public void setTags(Optional<List<String>> tags) {
-        this.tags = tags != null ? tags : Optional.empty();
+    public void setTags(List<String> tags) {
+        this.tags = tags;
     }
 
     public Optional<String> getDescription() {

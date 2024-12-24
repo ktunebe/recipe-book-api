@@ -1,25 +1,23 @@
 package dev.kent.recipe_book;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
 import java.util.Optional;
 
+@NoArgsConstructor
+@AllArgsConstructor
 public class IngredientInstance {
     private Optional<Double> quantity;
     private Optional<String> measurement;
-    private Ingredient ingredient;
+    private String ingredientId; // Use ingredient ID instead of Ingredient object
     private Optional<String> prepMethod; // New field for prepMethod method
 
-    public IngredientInstance(Optional<Double> quantity, Optional<String> measurement, Ingredient ingredient, Optional<String> prepMethod) {
-        this.quantity = quantity;
-        this.measurement = measurement;
-        this.ingredient = ingredient;
-        this.prepMethod = prepMethod;
-    }
-
-    public IngredientInstance(Ingredient ingredient) {
+    public IngredientInstance(String ingredientId) {
         this.quantity = Optional.empty();
         this.measurement = Optional.empty();
         this.prepMethod = Optional.empty();
-        this.ingredient = ingredient;
+        this.ingredientId = ingredientId;
     }
 
     public Optional<Double> getQuantity() {
@@ -38,12 +36,12 @@ public class IngredientInstance {
         this.measurement = measurement;
     }
 
-    public Ingredient getIngredient() {
-        return ingredient;
+    public String getIngredientId() {
+        return ingredientId;
     }
 
-    public void setIngredient(Ingredient ingredient) {
-        this.ingredient = ingredient;
+    public void setIngredientId(String ingredientId) {
+        this.ingredientId = ingredientId;
     }
 
     public Optional<String> getPrepMethod() {
@@ -56,6 +54,6 @@ public class IngredientInstance {
 
     @Override
     public String toString() {
-        return quantity + " " + measurement + " " + ingredient.getName() + " " + prepMethod;
+        return quantity + " " + measurement + " " + ingredientId + " " + prepMethod;
     }
 }

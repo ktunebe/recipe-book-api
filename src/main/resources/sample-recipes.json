@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Garlic Tomato Salad",
+    "category": "salad",
+    "ingredientList": [
+      {
+        "quantity": { "$numberDouble": "1.0" },
+        "measurement": "tablespoon",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1a" },
+        "prepMethod": "minced"
+      },
+      {
+        "quantity": { "$numberDouble": "2.0" },
+        "measurement": "whole",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1b" },
+        "prepMethod": "chopped"
+      },
+      {
+        "quantity": { "$numberDouble": "2.0" },
+        "measurement": "tablespoon",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1c" }
+      }
+    ],
+    "instructions": [
+      "Chop the tomatoes.",
+      "Mince the garlic.",
+      "Mix all ingredients in a bowl.",
+      "Drizzle with olive oil and serve."
+    ]
+  },
+  {
+    "title": "Simple Garlic Bread",
+    "category": "appetizer",
+    "ingredientList": [
+      {
+        "quantity": { "$numberDouble": "2.0" },
+        "measurement": "cloves",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1a" },
+        "prepMethod": "crushed"
+      },
+      {
+        "quantity": { "$numberDouble": "3.0" },
+        "measurement": "tablespoon",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1c" }
+      }
+    ],
+    "instructions": [
+      "Crush the garlic cloves.",
+      "Mix the garlic with olive oil.",
+      "Spread the mixture on bread slices.",
+      "Toast the bread until golden brown."
+    ]
+  }
+]

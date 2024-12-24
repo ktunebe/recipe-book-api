@@ -1,0 +1,20 @@
+[
+  {
+    "_id": { "$oid": "60c72b2f9b1e8a5f6f0e4d1a" },
+    "name": "garlic",
+    "tags": ["tasty", "savory"],
+    "description": "Garlic is a very garlicky garlic."
+  },
+  {
+    "_id": { "$oid": "60c72b2f9b1e8a5f6f0e4d1b" },
+    "name": "tomato",
+    "tags": ["fresh", "juicy"],
+    "description": "Tomato is a red juicy fruit often used in salads."
+  },
+  {
+    "_id": { "$oid": "60c72b2f9b1e8a5f6f0e4d1c" },
+    "name": "olive oil",
+    "tags": ["healthy", "oil"],
+    "description": "Olive oil is a healthy oil used in cooking and salads."
+  }
+]
