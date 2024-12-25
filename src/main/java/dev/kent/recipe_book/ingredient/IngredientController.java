@@ -1,4 +1,4 @@
-package dev.kent.recipe_book;
+package dev.kent.recipe_book.ingredient;
 
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,8 +34,19 @@ public class IngredientController {
 
     @PutMapping("/{id}")
     public ResponseEntity<Ingredient> updateIngredient(@PathVariable ObjectId id, @RequestBody Ingredient ingredient) {
-        ingredient.setId(id);
-        return new ResponseEntity<>(ingredientService.saveIngredient(ingredient), HttpStatus.OK);
+        Optional<Ingredient> existingIngredientOpt = ingredientService.getIngredientById(id);
+        if (existingIngredientOpt.isPresent()) {
+            Ingredient existingIngredient = existingIngredientOpt.get();
+            if (ingredient.getName() != null) {
+                existingIngredient.setName(ingredient.getName());
+            }
+            if (ingredient.getDescription() != null) {
+                existingIngredient.setDescription(ingredient.getDescription());
+            }
+            return new ResponseEntity<>(ingredientService.saveIngredient(existingIngredient), HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
     }
 
     @DeleteMapping("/{id}")

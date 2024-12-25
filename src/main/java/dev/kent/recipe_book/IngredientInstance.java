@@ -12,6 +12,7 @@ public class IngredientInstance {
     private Optional<String> measurement;
     private String ingredientId; // Use ingredient ID instead of Ingredient object
     private Optional<String> prepMethod; // New field for prepMethod method
+    private transient String ingredientName; // Transient field for ingredient name
 
     public IngredientInstance(String ingredientId) {
         this.quantity = Optional.empty();
@@ -50,6 +51,14 @@ public class IngredientInstance {
 
     public void setPrepMethod(Optional<String> prepMethod) {
         this.prepMethod = prepMethod;
+    }
+
+    public String getIngredientName() {
+        return ingredientName;
+    }
+
+    public void setIngredientName(String ingredientName) {
+        this.ingredientName = ingredientName;
     }
 
     @Override

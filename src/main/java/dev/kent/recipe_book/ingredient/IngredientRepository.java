@@ -1,4 +1,4 @@
-package dev.kent.recipe_book;
+package dev.kent.recipe_book.ingredient;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
