@@ -1,54 +1,267 @@
 [
   {
-    "title": "Garlic Tomato Salad",
-    "category": "salad",
+    "title": "Broccoli Cheddar Soup",
+    "category": "soup",
     "ingredientList": [
+      {
+        "quantity": { "$numberDouble": "5.0" },
+        "measurement": "Tbsp",
+        "additionalInfo": "unsalted",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1d" }
+      },
       {
         "quantity": { "$numberDouble": "1.0" },
-        "measurement": "tablespoon",
-        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1a" },
-        "prepMethod": "minced"
+        "additionalInfo": "medium",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1e" },
+        "prepMethod": "diced"
       },
-      {
-        "quantity": { "$numberDouble": "2.0" },
-        "measurement": "whole",
-        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1b" },
-        "prepMethod": "chopped"
-      },
-      {
-        "quantity": { "$numberDouble": "2.0" },
-        "measurement": "tablespoon",
-        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1c" }
-      }
-    ],
-    "instructions": [
-      "Chop the tomatoes.",
-      "Mince the garlic.",
-      "Mix all ingredients in a bowl.",
-      "Drizzle with olive oil and serve."
-    ]
-  },
-  {
-    "title": "Simple Garlic Bread",
-    "category": "appetizer",
-    "ingredientList": [
       {
         "quantity": { "$numberDouble": "2.0" },
         "measurement": "cloves",
         "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1a" },
-        "prepMethod": "crushed"
+        "prepMethod": "minced"
       },
       {
-        "quantity": { "$numberDouble": "3.0" },
-        "measurement": "tablespoon",
-        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1c" }
+        "quantity": { "$numberDouble": "3.5" },
+        "measurement": "cup",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d20" },
+        "prepMethod": "florets only or florets and stems"
+      },
+      {
+        "quantity": { "$numberDouble": "2.0" },
+        "additionalInfo": "large",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d21" },
+        "prepMethod": "cut into thin slices"
+      },
+      {
+        "quantity": { "$numberDouble": "0.25" },
+        "measurement": "cup",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d22" }
+      },
+      {
+        "quantity": { "$numberDouble": "2.0" },
+        "measurement": "cup",
+        "additionalInfo": "low sodium",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d23" }
+      },
+      {
+        "quantity": { "$numberDouble": "2.0" },
+        "measurement": "cup",
+        "additionalInfo": "fat free",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d26" }
+      },
+      {
+        "quantity": { "$numberDouble": "0.5" },
+        "measurement": "tsp",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d27" }
+      },
+      {
+        "quantity": { "$numberDouble": "1.0" },
+        "additionalInfo": "pinch",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d28" },
+        "prepMethod": "to taste (optional but recommended)"
+      },
+      {
+        "quantity": { "$numberDouble": "8.0" },
+        "measurement": "oz",
+        "additionalInfo": "high quality extra sharp",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d29" },
+        "prepMethod": "grated"
+      },
+      {
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d2a" },
+        "prepMethod": "to taste"
+      },
+      {
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d2b" },
+        "prepMethod": "to taste"
       }
     ],
     "instructions": [
-      "Crush the garlic cloves.",
-      "Mix the garlic with olive oil.",
-      "Spread the mixture on bread slices.",
-      "Toast the bread until golden brown."
-    ]
+      "Dice onion, mince garlic, and peel and cut carrots into thin slices.",
+      "In a medium pan, add 1 Tbsp butter and diced onion. Sauté over medium heat until onion is translucent and barely browned, about 4 minutes.",
+      "Add the garlic and cook about 30 seconds, stirring constantly. Remove pan from heat and set aside.",
+      "In a large pot, add remaining butter and flour and cook over medium heat for 3-5 minutes, whisking constantly, until flour is thickened.",
+      "Slowly add chicken stock, whisking constantly.",
+      "Slowly add half & half, whisking constantly.",
+      "Allow mixture to simmer over low heat for 15-20 minutes, whisking intermittently to re-incorporate skin.",
+      "After simmering 15-20 minutes, add broccoli, carrots, and onion and garlic previously set aside.",
+      "Add salt, pepper, paprika, cayenne pepper and stir to combine.",
+      "Allow to simmer over low heat for 20-25 minutes, whisking intermittently to re-incorporate skin.",
+      "While soup simmers, grate the cheese. After simmering 20-25 minutes, add most of the cheese, reserving a small amount for garnishing if desired. Stir in cheese until melted and fully incorporated, about 1 minute.",
+      "Transfer to bowls and serve."
+    ],
+    "tags": []
+  },
+  {
+    "title": "Al Bundy's Chili",
+    "category": "soup",
+    "ingredientList": [
+      {
+        "quantity": { "$numberDouble": "1.0" },
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1f" },
+        "prepMethod": "diced"
+      },
+      {
+        "quantity": { "$numberDouble": "1.0" },
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d35" },
+        "prepMethod": "ribs and seeds removed and diced"
+      },
+      {
+        "quantity": { "$numberDouble": "2.0" },
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d36" },
+        "prepMethod": "ribs and seeds removed and diced"
+      },
+      {
+        "quantity": { "$numberDouble": "5.0" },
+        "additionalInfo": "cloves",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1a" },
+        "prepMethod": "minced"
+      },
+      {
+        "quantity": { "$numberDouble": "1.0" },
+        "additionalInfo": "14 oz can",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d3b" }
+      },
+      {
+        "quantity": { "$numberDouble": "2.0" },
+        "measurement": "lb",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d39" }
+      },
+      {
+        "quantity": { "$numberDouble": "2.0" },
+        "measurement": "cup",
+        "additionalInfo": "low sodium",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d24" }
+      },
+      {
+        "quantity": { "$numberDouble": "2.0" },
+        "measurement": "cup",
+        "additionalInfo": "instant",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d3c" }
+      },
+      {
+        "quantity": { "$numberDouble": "1.0" },
+        "measurement": "Tbsp",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d3d" }
+      },
+      {
+        "quantity": { "$numberDouble": "1.0" },
+        "additionalInfo": "Tbsp",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d27" }
+      },
+      {
+        "quantity": { "$numberDouble": "0.5" },
+        "measurement": "Tbsp",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d2f" }
+      },
+      {
+        "quantity": { "$numberDouble": "0.5" },
+        "measurement": "Tbsp",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d2e" }
+      },
+      {
+        "quantity": { "$numberDouble": "0.5" },
+        "measurement": "tsp",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d28" }
+      },
+      {
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d2a" },
+        "prepMethod": "to taste"
+      },
+      {
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d2b" },
+        "prepMethod": "to taste"
+      }
+    ],
+    "instructions": [
+      "Heat a drizzle of oil in large pot over medium-high heat.",
+      "Cook garlic, onions, green peppers, and jalapeños 2-3 minutes, until fragrant and onion is translucent.",
+      "Add ground beef, chili powder, paprika, cayenne pepper, oregano, cumin, salt and pepper.",
+      "Cook until beef is browned through.",
+      "Add beef stock and crushed tomatoes and bring to a boil.",
+      "Reduce heat and simmer for 20-25 minutes.",
+      "While chili simmers, bring 1 cup water to a boil in a small pot.",
+      "Add rice and remove from heat.",
+      "Serve chili over rice."
+    ],
+    "tags": []
+  },
+  {
+    "title": "Chicken and Noodles",
+    "category": "soup",
+    "ingredientList": [
+      {
+        "quantity": { "$numberDouble": "1.0" },
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d3e" }
+      },
+      {
+        "quantity": { "$numberDouble": "4.0" },
+        "measurement": "cup",
+        "additionalInfo": "low sodium",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d23" }
+      },
+      {
+        "quantity": { "$numberDouble": "1.0" },
+        "additionalInfo": "12 oz package",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d3f" }
+      },
+      {
+        "quantity": { "$numberDouble": "1.0" },
+        "measurement": "stick",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1d" }
+      },
+      {
+        "quantity": { "$numberDouble": "0.5" },
+        "measurement": "cup",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d22" }
+      },
+      {
+        "quantity": { "$numberDouble": "1.0" },
+        "measurement": "tsp",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d30" }
+      },
+      {
+        "quantity": { "$numberDouble": "1.0" },
+        "measurement": "tsp",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d2f" }
+      },
+      {
+        "quantity": { "$numberDouble": "0.5" },
+        "measurement": "tsp",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d34" }
+      },
+      {
+        "quantity": { "$numberDouble": "1.0" },
+        "measurement": "Tbsp",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d2c" }
+      },
+      {
+        "quantity": { "$numberDouble": "1.0" },
+        "measurement": "Tbsp",
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d2d" }
+      },
+      {
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d2a" },
+        "prepMethod": "to taste"
+      },
+      {
+        "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d2b" },
+        "prepMethod": "to taste"
+      }
+    ],
+    "instructions": [
+      "Melt butter in large pot over medium heat.",
+      "Add flour, whisk until combined, and brown.",
+      "Slowly add chicken stock, whisking constantly.",
+      "Add between 2-4 cups water (2 cups will yield little to no broth, 4 cups will be more brothy like soup).",
+      "Bring to a boil, whisking frequently to keep roux from clumping.",
+      "Add noodles.",
+      "Cook according to noodle packaging, stirring occasionally, adding spices in the last minute or two.",
+      "While noodles are cooking, shred white meat from rotisserie chicken.",
+      "Stir chicken into noodles after removing from heat",
+      "Serve in bowls."
+    ],
+    "tags": []
   }
 ]

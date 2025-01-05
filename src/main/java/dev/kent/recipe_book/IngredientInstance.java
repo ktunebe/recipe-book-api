@@ -10,6 +10,7 @@ import java.util.Optional;
 public class IngredientInstance {
     private Optional<Double> quantity;
     private Optional<String> measurement;
+    private Optional<String> additionalInfo;
     private String ingredientId; // Use ingredient ID instead of Ingredient object
     private Optional<String> prepMethod; // New field for prepMethod method
     private transient String ingredientName; // Transient field for ingredient name
@@ -33,9 +34,13 @@ public class IngredientInstance {
         return measurement;
     }
 
-    public void setMeasurement(Optional<String> measurement) {
-        this.measurement = measurement;
+    public void setMeasurement(Optional<String> measurement) { this.measurement = measurement; }
+
+    public Optional<String> getAdditionalInfo() {
+        return additionalInfo;
     }
+
+    public void setAdditionalInfo(Optional<String> additionalInfo) { this.additionalInfo = additionalInfo; }
 
     public String getIngredientId() {
         return ingredientId;
