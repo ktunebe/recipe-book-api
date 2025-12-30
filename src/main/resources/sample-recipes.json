@@ -17,7 +17,7 @@
       },
       {
         "quantity": { "$numberDouble": "2.0" },
-        "measurement": "cloves",
+        "measurement": "clove",
         "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1a" },
         "prepMethod": "minced"
       },
@@ -57,7 +57,7 @@
       },
       {
         "quantity": { "$numberDouble": "1.0" },
-        "additionalInfo": "pinch",
+        "measurement": "pinch",
         "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d28" },
         "prepMethod": "to taste (optional but recommended)"
       },
@@ -114,13 +114,13 @@
       },
       {
         "quantity": { "$numberDouble": "5.0" },
-        "additionalInfo": "cloves",
+        "measurement": "clove",
         "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d1a" },
         "prepMethod": "minced"
       },
       {
         "quantity": { "$numberDouble": "1.0" },
-        "additionalInfo": "14 oz can",
+        "measurement": "14 oz can",
         "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d3b" }
       },
       {
@@ -203,7 +203,7 @@
       },
       {
         "quantity": { "$numberDouble": "1.0" },
-        "additionalInfo": "12 oz package",
+        "measurement": "12 oz package",
         "ingredientId": { "$oid": "60c72b2f9b1e8a5f6f0e4d3f" }
       },
       {
