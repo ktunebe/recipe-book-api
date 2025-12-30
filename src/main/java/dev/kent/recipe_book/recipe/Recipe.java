@@ -19,14 +19,16 @@ public class Recipe {
     private List<IngredientInstance> ingredientList;
     private List<String> instructions;
     private List<String> tags = new ArrayList<>();
+    private String imagePath;
 
-    public Recipe(ObjectId id, String title, String category, List<IngredientInstance> ingredientList, List<String> instructions, List<String> tags) {
+    public Recipe(ObjectId id, String title, String category, List<IngredientInstance> ingredientList, List<String> instructions, List<String> tags, String imagePath) {
         this.id = id;
         this.title = title;
         this.category = category;
         this.ingredientList = ingredientList;
         this.instructions = instructions;
         this.tags = tags;
+        this.imagePath = imagePath;
     }
 
     public String getId() {
@@ -76,4 +78,8 @@ public class Recipe {
     public void setTags(List<String> tags) {
         this.tags = tags;
     }
+
+    public String getImagePath() { return imagePath; }
+
+    public void setImagePath(String imagePath) { this.imagePath = imagePath; }
 }
